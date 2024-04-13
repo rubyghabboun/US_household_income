@@ -30,7 +30,7 @@ Data Cleaning: Duplicate records and missing values were handled using SQL queri
 # Usage
 To replicate this analysis:
 
-Clone this repository: git clone https://github.com/your-username/us-household-income-analysis.git
+Clone this repository: git clone git@github.com:rubyghabboun/US_household_income.git
 Set up your SQL environment and database.
 Run the SQL scripts in the scripts/ directory to execute the data cleaning and analysis tasks.
 Open the Tableau workbook in the tableau/ directory to explore the visualizations.
