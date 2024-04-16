@@ -14,9 +14,10 @@ Tableau: Used for data visualization and creating interactive dashboards.
 GitHub: Repository hosting and version control for project code and documentation.
 
 # Project Structure
-data/: Directory containing the dataset used in the analysis.
+CLEAN_DATA/: Directory containing the dataset after the cleaning process.
+RAW_DATA/: Directory containing the dataset used in the analysis.
 scripts/: SQL scripts for data cleaning, analysis, and EDA.
-tableau/: Tableau workbook and visualization files.
+tableau/: Tableau workbook and visualization files. https://public.tableau.com/app/profile/ruby.ghabboun/viz/USAHouseholdIncome/Story1
 README.md: Project overview and instructions.
 
 # Key Steps
@@ -26,6 +27,7 @@ Data Cleaning: Duplicate records and missing values were handled using SQL queri
 2.Exploratory Data Analysis (EDA): Various SQL queries were used to perform exploratory analysis on the dataset, investigating most and least rich cities, distributions, and geographical correlations.
 
 3.Visualization with Tableau: The cleaned dataset was visualized using Tableau to create interactive visualizations and dashboards.
+https://public.tableau.com/app/profile/ruby.ghabboun/viz/USAHouseholdIncome/Story1
 
 # Usage
 To replicate this analysis:
