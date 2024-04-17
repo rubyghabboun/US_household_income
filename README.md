@@ -24,7 +24,51 @@ README.md: Project overview and instructions.
 1.Data Extraction: The dataset was extracted from (https://www.census.gov/).
 Data Cleaning: Duplicate records and missing values were handled using SQL queries. Generated missing values were based on [similarities in the data set & in some cases averages].
 
-2.Exploratory Data Analysis (EDA): Various SQL queries were used to perform exploratory analysis on the dataset, investigating most and least rich cities, distributions, and geographical correlations.
+2.Exploratory Data Analysis (EDA):
+# mean = avarage income / median = most reported income.
+Top 5 States by Average income
+District of Columbia: $90,668.4 (Mean), $93,759.6 (Median)
+Connecticut: $89,732.8 (Mean), $121,240.4 (Median)
+New Jersey: $89,565.4 (Mean), $126,972.7 (Median)
+Maryland: $88,444.2 (Mean), $114,969.2 (Median)
+Massachusetts: $85,645.7 (Mean), $119,074.4 
+
+Top 5 States by highest most reported income Income:
+New Jersey: $126,972.7 (Median)
+Wyoming: $126,316.7 (Median)
+Alaska: $122,295.7 (Median)
+Connecticut: $121,240.4 (Median)
+Massachusetts: $119,074.4 (Median)
+
+Bottom 4 States by Average Income:
+Puerto Rico: $27,841.7 (Mean), $22,522.4 (Median)
+Mississippi: $49,385.6 (Mean), $57,964.7 (Median)
+Arkansas: $52,213.9 (Mean), $52,536.1 (Median)
+West Virginia: $52,292.0 (Mean), $63,566.3 (Median)
+Alabama: $54,023.8 (Mean), $63,252.2 (Median)
+
+Highest Income Cities:
+Delta Junction, Alaska: $242,857.0 (Mean), $300,000.0 (Median)
+Short Hills, New Jersey: $216,503.0 (Mean), $300,000.0 (Median)
+Narberth, Pennsylvania: $194,426.0 (Mean), $224,616.0 (Median)
+Chevy Chase, Maryland: $194,157.5 (Mean), $259,355.5 (Median)
+Darien, Connecticut: $192,882.0 (Mean), $300,000.0 (Median)
+
+Lowest Income Cities:
+Center, Colorado: $10,946.0 (Mean), $6,808.0 (Median)
+Estancia, New Mexico: $11,375.0 (Mean), $300,000.0 (Median)
+Corsica, South Dakota: $13,534.0 (Mean), $7,282.0 (Median)
+Mount Olivet, Kentucky: $13,882.0 (Mean), $300,000.0 (Median)
+Fordville, North Dakota: $13,982.0 (Mean), $8,188.0 (Median).
+
+Largest States by Total Area and Percentage of Land/Water:
+
+Texas: Total Area - 181,206,869,469 sq. units, Land Percentage - 95.59%
+California: Total Area - 94,321,769,310 sq. units, Land Percentage - 95.90%
+Missouri, Minnesota, Michigan, Illinois, Kansas, Oklahoma, Iowa, Wisconsin.
+
+Smallest States by Total Area and Percentage of Land/Water:
+District of Columbia, Rhode Island, Delaware, Puerto Rico, Wyoming, Connecticut, hawaii.
 
 3.Visualization with Tableau: The cleaned dataset was visualized using Tableau to create interactive visualizations and dashboards.
 https://public.tableau.com/app/profile/ruby.ghabboun/viz/USAHouseholdIncome/Story1
